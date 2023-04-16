@@ -1,0 +1,79 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Colors */
+body {
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+header {
+  background-color: #00578a;
+  padding: 1rem;
+}
+
+header h1 a, nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+main {
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #00578a;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Layout */
+header, main, footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Images */
+.banner-image {
+  width: 100%;
+  height: 400px;
+  background-image: url('https://d3qf8nvav5av0u.cloudfront.net/image/a5d0e113932aad6d69d3fccf8c5cd7de.jpg?&x=1280&y=720&icq=74&sig=ec760f03355412e6e57a55ca8f293381'); /* Replace with your own surfing image */
+  background-position: center;
+  background-size: cover;
+}
+
+/* Custom styles for the calendar */
+#calendar {
+  margin-bottom: 2rem;
+}

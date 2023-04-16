@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="spot-form.js" defer></script>
+  <title>새 스팟 추가 - 서핑 커뮤니티</title>
+</head>
+<body>
+  <header>
+    <!-- 헤더 내용 -->
+    <h1><a href="index.html">서핑 커뮤니티</a></h1>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="spot-list.html">스팟 목록</a>
+      <a href="#">커뮤니티</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>새 스팟 추가</h2>
+    <form id="spot-form">
+      <label for="spot-name">스팟 이름(구글 맵에서 검색했을때 나오도록 작성):</label>
+      <input type="text" id="spot-name" name="spot-name" required>
+      <label for="spot-description">스팟 설명:</label>
+      <textarea id="spot-description" name="spot-description" required></textarea>
+      <button type="submit">스팟 추가</button>
+    </form>
+  </main>
+  
+  <footer>
+    <p>© 2023 서핑 커뮤니티. All rights reserved.</p>
+  </footer>
+</body>
+</html>

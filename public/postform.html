@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="postform.js" defer></script>
+  <title>게시물 작성</title>
+</head>
+<body>
+    
+  <header>
+    <h1><a href="index.html">서핑 커뮤니티</a></h1>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="spot-list.html">스팟 목록</a>
+      <a href="community.html">커뮤니티</a>
+    </nav>
+  </header>
+
+  <h1>게시물 작성</h1>
+  <form id="post-form">
+    <label for="title">제목:</label>
+    <input type="text" id="title" name="title" required>
+    <label for="content">내용:</label>
+    <textarea id="content" name="content" required></textarea>
+    
+    <label for="category">Category:</label>
+    <select id="category" name="category" required>
+      <option value="">Select a category</option>
+      <option value="강습">강습</option>
+      <option value="이벤트">이벤트</option>
+      <option value="영상촬영">영상촬영</option>
+      <option value="픽업">픽업</option>
+      <option value="같이서핑해요">같이서핑해요</option>
+    </select>
+  
+    <label for="spot_id">Spot:</label>
+    <select id="spot_id" name="spot_id">
+      <option value="">Select a spot (optional)</option>
+    </select>
+    <input type="submit" value="작성">
+  </form>
+  
+  <footer>
+    <p>© 2023 서핑 커뮤니티. All rights reserved.</p>
+  </footer>
+</body>
+</html>
